@@ -1,0 +1,14 @@
+name: BlockDeleter
+main: com.meeku.blockdeleter.BlockDeleter
+version: 1.0
+api-version: 1.13
+commands:
+   bdenable:
+      description: enables block deletion
+      usage: /bdenable
+   bddisable:
+      description: disables block deletion
+      usage: /bddisable
+   bdsetdelay:
+      description: sets deletion delay in range [1,200]
+      usage: /bdsetdelay <ticks>
